@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;;
+    font-family: 'poppins', sans-serif;
+}
+.content{
+    position: relative;
+    display: flex;
+}
+.section1{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.section1 img{
+    margin-left: 30px;
+}
+.section1 h1{
+    padding: 30px;
+}
+.section1 img{
+    width: 100%;
+    height: 100%;
+}
+.section2{
+    width: 50%;
+    height: 100%;
+    float: right;
+    text-align: center;
+}
+.btnsection{
+    margin: 60px;
+    justify-content: space-around;
+    display: flex;
+}
+.section2 .button1{
+   background-color: #FFC200; 
+  border: none;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  padding:10px 30px;
+  cursor: pointer;
+  margin-left: 125px;
+}
+.section2 .button2{
+    background-color: #FFC200; 
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 125px;
+    padding:10px 30px;
+    cursor: pointer;
+}
+.in{
+    width:250px;
+    height: 50px;
+    padding-left: 25px;
+    border-radius: 15px;
+    border-color: rgb(180, 175, 175);
+    color: black;
+}
+.formsec h1{
+    color: #7ebad2;
+}
+.box{
+    padding: 10px;
+}
+.submit{
+    background-color: #FFC200;
+    border-radius: 25px;
+    width:250px;
+    height: 50px;
+    border-style: none;
+}
